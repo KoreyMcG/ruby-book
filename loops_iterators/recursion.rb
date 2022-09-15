@@ -1,13 +1,11 @@
 # recursion.rb
 
 def count_to_zero(num)
-  puts num
-  if num > 1
+  if num >= 0
+    puts num
     count_to_zero(num - 1)
-  else
-    puts "Done!"
   end
 end
 
-puts "Please enter a number to begin countdown: "
+puts "Please enter a number to initiate countdown: "
 count_to_zero(gets.chomp.to_i)
