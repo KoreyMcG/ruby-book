@@ -1,6 +1,5 @@
-# scope.rb
-
 a = 5
+b = nil
 
 3.times do |n|
   a = 3
