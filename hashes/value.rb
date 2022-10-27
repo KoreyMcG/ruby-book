@@ -1,9 +1,6 @@
 # value.rb
 
-person = {name: "Jessica", height: "5 foot 7", hair: "Brown"}
+bob = { name: 'Bob', weight: '206 lbs', height: "6' 3\"" }
 
-if person.value?("Jessica")
-  puts "Yes the value is there"
-else
-  puts "Nope the value is not there"
-end
+puts bob.value?("6' 3\"")
+puts bob[:height]
